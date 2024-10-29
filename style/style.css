@@ -1,0 +1,44 @@
+
+.dosis {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.DivColor{
+    background-color: #000324;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+
+.navbar li{
+    vertical-align: bottom;
+}
+
+.imgtext{
+    color: white;
+    background-color: #000324;
+    opacity: 80%;
+    position: absolute;
+    top: 250px;
+    left: 20%;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.IMGresize{
+    width: 200px;
+}
+
+.card{
+    
+}
