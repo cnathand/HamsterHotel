@@ -16,7 +16,7 @@
 
 .nav-link{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .navbar li{
@@ -39,6 +39,10 @@
     width: 200px;
 }
 
-.card{
-    
+.price{
+    color: #1F51A8;
+}
+
+.textwhite{
+    color: white;
 }
