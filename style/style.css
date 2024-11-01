@@ -1,3 +1,47 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.DivColor {
+  background-color: #000324;
+  color: #000324;
+}
+
+/* img and text with background */
+
+.nav-link {
+  color: white;
+  font-size: 14px;
+}
+
+.header-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.imgtext {
+  width: auto;
+  max-width: 1000px;
+  color: white;
+  background-color: #000324;
+  opacity: 80%;
+  position: relative;
+  bottom: 370px;
+  left: 10%;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: -150px;
+}
+
+/* Image and text on the side */
+
+.hamster-home {
+  height: 416px;
+  width: 369px;
+}
 
 .dosis {
   font-family: "Dosis", sans-serif;
@@ -6,43 +50,358 @@
   font-style: normal;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-.DivColor{
-    background-color: #000324;
+.hamster-p {
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
-.nav-link{
-    color: white;
-    font-size: 16px;
+.IMGresize {
+  width: 200px;
+  height: auto;
 }
 
-.navbar li{
-    vertical-align: bottom;
+/* bg img with cards on top */
+
+.room-header {
+  max-width: 200px;
+  width: auto;
 }
 
-.imgtext{
+.room-bg {
+  height: 800px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.room-text {
+  max-width: 228px;
+  width: auto;
+  bottom: 720px;
+  left: 42%;
+  position: relative;
+}
+
+.room-card {
+  margin-bottom: -650px;
+  bottom: 700px;
+  position: relative;
+  left: 7%;
+}
+
+.room-image {
+  width: 369px;
+}
+
+/* packages */
+
+.package-img {
+  height: 300px;
+  width: 640px;
+  object-fit: cover;
+}
+
+.price {
+  color: #1f51a8;
+}
+
+/* amenities */
+
+.amenities-bg {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.amenities-text {
+  margin: 0;
+  bottom: 435px;
+  position: relative;
+  color: white;
+}
+
+.amenities-logo {
+  margin-bottom: -300px;
+  bottom: 435px;
+  left: 10%;
+  position: relative;
+  color: white;
+}
+
+.amenities-resize {
+  height: 100px;
+  width: auto;
+}
+
+/* reserve room */
+
+.reserve-img {
+  height: 414px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* footer */
+
+.footer-img {
+  height: 50px;
+  width: auto;
+}
+
+/* tablet responsive */
+@media screen and (max-width: 900px) {
+
+    /* navbar */
+    .navbar-img{
+        display: none;
+    }
+    
+  /* img and text with background */
+
+  .header-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .imgtext {
+    width: auto;
+    max-width: 900px;
     color: white;
     background-color: #000324;
     opacity: 80%;
-    position: absolute;
-    top: 250px;
-    left: 20%;
-    padding-left: 200px;
-    padding-right: 200px;
+    position: relative;
+    bottom: 280px;
+    left: 0.5%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: -150px;
+  }
 
-}
+  /* Image and text on the side */
 
-.IMGresize{
+  .hamster-home {
+    height: 350px;
     width: 200px;
-}
+    margin-top: 28px;
+  }
 
-.price{
-    color: #1F51A8;
-}
+  .IMGresize {
+    width: 159px;
+    height: auto;
+  }
 
-.textwhite{
+  /* bg img with cards on top */
+
+  .room-image {
+    width: 608px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .room-card {
+    margin-bottom: -2500px;
+    bottom: 2460px;
+    position: relative;
+    left: 7%;
+  }
+
+  .room-bg {
+    height: 2600px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .room-text {
+    max-width: 228px;
+    width: auto;
+    bottom: 2520px;
+    left: 35%;
+    position: relative;
+  }
+
+  .reserve-btn {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .md-h1 {
+    font-size: 40px;
+  }
+
+  /* packages */
+
+  .package-img {
+    height: 360px;
+    width: 330px;
+    object-fit: cover;
+  }
+
+  /* amenities */
+
+  .amenities-bg {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .amenities-text {
+    margin: 0;
+    bottom: 580px;
+    position: relative;
     color: white;
+  }
+
+  .amenities-logo {
+    margin-bottom: -480px;
+    bottom: 600px;
+    left: 14%;
+    position: relative;
+    color: white;
+  }
+
+  /* reserve room */
+
+  .move-right {
+    padding-left: 140px;
+  }
+
+  .reserve-check {
+    width: 310px;
+    padding-left: 129px;
+  }
+}
+
+/* phone responsive */
+
+@media screen and (max-width: 500px) {
+
+    /* navbar */
+    .navbar-img{
+        display: none;
+    }
+
+  /* img and text with background */
+
+  .imgtext {
+    width: auto;
+    max-width: 900px;
+    color: white;
+    background-color: #000324;
+    opacity: 80%;
+    position: relative;
+    bottom: 280px;
+    left: 0%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: -250px;
+  }
+
+  /* Image and text on the side */
+
+  .hamster-home {
+    height: 250px;
+    width: 425px;
+    object-fit: cover;
+  }
+
+  .hamster-p {
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+
+  .dosis {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 38px;
+    margin-top: 20px;
+  }
+
+  .IMGresize {
+    width: 140px;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  /* bg img with cards on top */
+
+  .room-header {
+    max-width: 200px;
+    width: auto;
+  }
+
+  .room-bg {
+    height: 2100px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .room-text {
+    max-width: 228px;
+    width: auto;
+    bottom: 2025px;
+    left: 30%;
+    position: relative;
+  }
+
+  .room-card {
+    margin-bottom: -2350px;
+    bottom: 2000px;
+    position: relative;
+    left: 7%;
+  }
+
+  .room-image {
+    width: 369px;
+  }
+
+  /* packages */
+
+  .package-img {
+    height: 300px;
+    width: 190px;
+    object-fit: cover;
+  }
+
+  /* amenities */
+
+  .amenities-bg {
+    height: 900px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .amenities-text {
+    margin: 0;
+    bottom: 860px;
+    position: relative;
+    color: white;
+  }
+
+  .amenities-logo {
+    margin-bottom: -700px;
+    bottom: 850px;
+    left: 0%;
+    position: relative;
+    color: white;
+  }
+
+  .amenities-resize {
+    height: 100px;
+    width: auto;
+  }
+
+  /* reserve room */
+
+  .move-right {
+    padding-left: 140px;
+  }
+
+  .reserve-check {
+    width: 310px;
+    padding-left: 129px;
+  }
 }
