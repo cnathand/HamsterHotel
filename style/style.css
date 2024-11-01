@@ -9,7 +9,6 @@
   color: #000324;
 }
 
-
 /* img and text with background */
 
 .nav-link {
@@ -150,12 +149,11 @@
 
 /* tablet responsive */
 @media screen and (max-width: 900px) {
+  /* navbar */
+  .navbar-img {
+    display: none;
+  }
 
-    /* navbar */
-    .navbar-img{
-        display: none;
-    }
-    
   /* img and text with background */
 
   .header-img {
@@ -277,11 +275,10 @@
 /* phone responsive */
 
 @media screen and (max-width: 500px) {
-
-    /* navbar */
-    .navbar-img{
-        display: none;
-    }
+  /* navbar */
+  .navbar-img {
+    display: none;
+  }
 
   /* img and text with background */
 
